@@ -1,0 +1,31 @@
+.add-to-basket {
+  flex: 1 1 300px;
+}
+
+.add-product {
+  padding: 10px 0;
+}
+
+.add-product-name {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.add-modifier-group {
+  padding: 15px 0;
+}
+
+.add-modifier-group-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.add-modifier {
+  padding: 5px 0;
+}
+
+.add-modifier-price {
+  color: #777;
+  font-size: 14px;
+  margin-left: 10px;
+}

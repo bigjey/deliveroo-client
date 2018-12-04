@@ -1,0 +1,13 @@
+.m-container {
+  flex: 1 1 50%;
+  width: 50%;
+}
+
+.m-category {
+  padding: 15px;
+}
+
+.m-category-title {
+  font-size: 36px;
+  font-weight: 700;
+}
