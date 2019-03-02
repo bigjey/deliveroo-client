@@ -1,6 +1,6 @@
 import "./AddToBasket.css";
 
-import React, { useState } from "react";
+import React from "react";
 import axios from "axios";
 
 export class AddToBasket extends React.Component {
@@ -37,7 +37,7 @@ export class AddToBasket extends React.Component {
     };
 
     try {
-      await axios.post("http://localhost:3123/api/basket/items", payload);
+      await axios.post("http://localhost:3123/api/basket", payload);
 
       this.setState({ added: true });
     } catch (e) {
